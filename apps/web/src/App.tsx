@@ -5,7 +5,7 @@ import { parseM3U } from './utils/m3uParser';
 import HomePageWithCarousel from './components/HomePageWithCarousel';
 import PlayerPagePremium from './components/PlayerPagePremium';
 import AboutPageUltraPremium from './components/AboutPageUltraPremium';
-import SubscriptionPageWave from './components/SubscriptionPageWave';
+import SubscriptionPageWithTrial from './components/SubscriptionPageWithTrial';
 import Navigation from './components/Navigation';
 import Toast from './components/Toast';
 import initialPlaylistContent from './data/initialPlaylist.m3u?raw';
@@ -44,7 +44,7 @@ function App() {
               <Route path="/" element={<HomePageWithCarousel />} />
               <Route path="/player/:channelId" element={<PlayerPagePremium />} />
               <Route path="/about" element={<AboutPageUltraPremium />} />
-              <Route path="/subscription" element={<SubscriptionPageWave />} />
+              <Route path="/subscription" element={<SubscriptionPageWithTrial />} />
             </Routes>
           </main>
           <Navigation />
