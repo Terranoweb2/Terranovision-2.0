@@ -1,0 +1,93 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="terranovision.avatar" tvg-logo="https://terranovision.com/logos/avatar.jpg" group-title="Cinéma 4K",Avatar: La Voie de l'Eau (2022)
+http://iptv.terranovision.com:8080/movie/premium/avatar_2022/avatar_la_voie_de_leau_4k.m3u8?token=terranovision_premium_2024
+
+#EXTINF:-1 tvg-id="terranovision.topgun" tvg-logo="https://terranovision.com/logos/topgun.jpg" group-title="Cinéma 4K",Top Gun: Maverick (2022)
+http://iptv.terranovision.com:8080/movie/premium/topgun_2022/topgun_maverick_4k.m3u8?token=terranovision_premium_2024
+
+#EXTINF:-1 tvg-id="terranovision.blackpanther" tvg-logo="https://terranovision.com/logos/blackpanther.jpg" group-title="Marvel 4K",Black Panther: Wakanda Forever (2022)
+http://iptv.terranovision.com:8080/movie/marvel/blackpanther_2022/wakanda_forever_4k.m3u8?token=terranovision_marvel_2024
+
+#EXTINF:-1 tvg-id="terranovision.dune" tvg-logo="https://terranovision.com/logos/dune.jpg" group-title="Science-Fiction 4K",Dune (2021)
+http://iptv.terranovision.com:8080/movie/scifi/dune_2021/dune_villeneuve_4k.m3u8?token=terranovision_scifi_2024
+
+#EXTINF:-1 tvg-id="terranovision.spiderman" tvg-logo="https://terranovision.com/logos/spiderman.jpg" group-title="Marvel 4K",Spider-Man: No Way Home (2021)
+http://iptv.terranovision.com:8080/movie/marvel/spiderman_2021/no_way_home_4k.m3u8?token=terranovision_marvel_2024
+
+#EXTINF:-1 tvg-id="terranovision.batman" tvg-logo="https://terranovision.com/logos/batman.jpg" group-title="DC Comics 4K",The Batman (2022)
+http://iptv.terranovision.com:8080/movie/dc/batman_2022/the_batman_4k.m3u8?token=terranovision_dc_2024
+
+#EXTINF:-1 tvg-id="terranovision.doctorstrange" tvg-logo="https://terranovision.com/logos/doctorstrange.jpg" group-title="Marvel 4K",Doctor Strange in the Multiverse of Madness (2022)
+http://iptv.terranovision.com:8080/movie/marvel/doctorstrange_2022/multiverse_madness_4k.m3u8?token=terranovision_marvel_2024
+
+#EXTINF:-1 tvg-id="terranovision.jurassic" tvg-logo="https://terranovision.com/logos/jurassic.jpg" group-title="Aventure 4K",Jurassic World Dominion (2022)
+http://iptv.terranovision.com:8080/movie/adventure/jurassic_2022/world_dominion_4k.m3u8?token=terranovision_adventure_2024
+
+#EXTINF:-1 tvg-id="terranovision.minions" tvg-logo="https://terranovision.com/logos/minions.jpg" group-title="Animation 4K",Minions: The Rise of Gru (2022)
+http://iptv.terranovision.com:8080/movie/animation/minions_2022/rise_of_gru_4k.m3u8?token=terranovision_animation_2024
+
+#EXTINF:-1 tvg-id="terranovision.thor" tvg-logo="https://terranovision.com/logos/thor.jpg" group-title="Marvel 4K",Thor: Love and Thunder (2022)
+http://iptv.terranovision.com:8080/movie/marvel/thor_2022/love_and_thunder_4k.m3u8?token=terranovision_marvel_2024
+
+#EXTINF:-1 tvg-id="terranovision.amelie" tvg-logo="https://terranovision.com/logos/amelie.jpg" group-title="Cinéma Français HD",Amélie (2001)
+http://iptv.terranovision.com:8080/movie/french/amelie_2001/amelie_poulain_hd.m3u8?token=terranovision_french_2024
+
+#EXTINF:-1 tvg-id="terranovision.intouchables" tvg-logo="https://terranovision.com/logos/intouchables.jpg" group-title="Cinéma Français HD",Les Intouchables (2011)
+http://iptv.terranovision.com:8080/movie/french/intouchables_2011/intouchables_hd.m3u8?token=terranovision_french_2024
+
+#EXTINF:-1 tvg-id="terranovision.lavieenrose" tvg-logo="https://terranovision.com/logos/lavieenrose.jpg" group-title="Cinéma Français HD",La Vie en Rose (2007)
+http://iptv.terranovision.com:8080/movie/french/lavieenrose_2007/piaf_biopic_hd.m3u8?token=terranovision_french_2024
+
+#EXTINF:-1 tvg-id="terranovision.planeteterre3" tvg-logo="https://terranovision.com/logos/planeteterre.jpg" group-title="Documentaires 4K",Planète Terre III - Episode 1 (2023)
+http://iptv.terranovision.com:8080/series/natgeo/planete_terre_3/episode_01_4k.m3u8?token=terranovision_natgeo_2024
+
+#EXTINF:-1 tvg-id="terranovision.cosmos2024" tvg-logo="https://terranovision.com/logos/cosmos.jpg" group-title="Documentaires 4K",Cosmos: Nouveaux Mondes - Episode 1 (2024)
+http://iptv.terranovision.com:8080/series/natgeo/cosmos_2024/nouveaux_mondes_ep01_4k.m3u8?token=terranovision_natgeo_2024
+
+#EXTINF:-1 tvg-id="terranovision.afriquesauvage" tvg-logo="https://terranovision.com/logos/afriquesauvage.jpg" group-title="Documentaires 4K",Afrique Sauvage - Episode 1 (2023)
+http://iptv.terranovision.com:8080/series/natgeo/afrique_sauvage/episode_01_4k.m3u8?token=terranovision_natgeo_africa_2024
+
+#EXTINF:-1 tvg-id="terranovision.encanto" tvg-logo="https://terranovision.com/logos/encanto.jpg" group-title="Disney 4K",Encanto (2021)
+http://iptv.terranovision.com:8080/movie/disney/encanto_2021/encanto_4k.m3u8?token=terranovision_disney_2024
+
+#EXTINF:-1 tvg-id="terranovision.luca" tvg-logo="https://terranovision.com/logos/luca.jpg" group-title="Pixar 4K",Luca (2021)
+http://iptv.terranovision.com:8080/movie/pixar/luca_2021/luca_4k.m3u8?token=terranovision_pixar_2024
+
+#EXTINF:-1 tvg-id="terranovision.raya" tvg-logo="https://terranovision.com/logos/raya.jpg" group-title="Disney 4K",Raya et le Dernier Dragon (2021)
+http://iptv.terranovision.com:8080/movie/disney/raya_2021/raya_dernier_dragon_4k.m3u8?token=terranovision_disney_2024
+
+#EXTINF:-1 tvg-id="terranovision.lastofus" tvg-logo="https://terranovision.com/logos/lastofus.jpg" group-title="Séries HBO 4K",The Last of Us - Episode 1 (2023)
+http://iptv.terranovision.com:8080/series/hbo/lastofus_2023/episode_01_4k.m3u8?token=terranovision_hbo_2024
+
+#EXTINF:-1 tvg-id="terranovision.hotd" tvg-logo="https://terranovision.com/logos/housedragon.jpg" group-title="Séries HBO 4K",House of the Dragon - Episode 1 (2022)
+http://iptv.terranovision.com:8080/series/hbo/hotd_2022/episode_01_4k.m3u8?token=terranovision_hbo_fantasy_2024
+
+#EXTINF:-1 tvg-id="terranovision.strangerthings4" tvg-logo="https://terranovision.com/logos/strangerthings.jpg" group-title="Séries Netflix 4K",Stranger Things 4 - Episode 1 (2022)
+http://iptv.terranovision.com:8080/series/netflix/strangerthings_4/episode_01_4k.m3u8?token=terranovision_netflix_2024
+
+#EXTINF:-1 tvg-id="terranovision.maitresse" tvg-logo="https://terranovision.com/logos/maitresse.jpg" group-title="Cinéma Sénégalais HD",Maîtresse d'un Homme Marié (2023)
+http://iptv.terranovision.com:8080/movie/senegal/maitresse_2023/maitresse_homme_marie_hd.m3u8?token=terranovision_senegal_2024
+
+#EXTINF:-1 tvg-id="terranovision.adama" tvg-logo="https://terranovision.com/logos/adama.jpg" group-title="Cinéma Sénégalais HD",Adama (2022)
+http://iptv.terranovision.com:8080/movie/senegal/adama_2022/adama_historique_hd.m3u8?token=terranovision_senegal_2024
+
+#EXTINF:-1 tvg-id="terranovision.atlantique" tvg-logo="https://terranovision.com/logos/atlantique.jpg" group-title="Cinéma Sénégalais HD",Atlantique (2019)
+http://iptv.terranovision.com:8080/movie/senegal/atlantique_2019/atlantique_cannes_hd.m3u8?token=terranovision_afrique_2024
+
+#EXTINF:-1 tvg-id="terranovision.fifa2022" tvg-logo="https://terranovision.com/logos/fifa2022.jpg" group-title="Sports 4K",Coupe du Monde FIFA 2022 - Highlights
+http://iptv.terranovision.com:8080/sports/fifa_2022/highlights_complete_4k.m3u8?token=terranovision_sports_2024
+
+#EXTINF:-1 tvg-id="terranovision.ucl2024" tvg-logo="https://terranovision.com/logos/championsleague.jpg" group-title="Sports 4K",Champions League 2024 - Meilleurs Moments
+http://iptv.terranovision.com:8080/sports/ucl_2024/best_moments_4k.m3u8?token=terranovision_uefa_2024
+
+#EXTINF:-1 tvg-id="terranovision.mtvunplugged" tvg-logo="https://terranovision.com/logos/mtvunplugged.jpg" group-title="Musique HD",MTV Unplugged: Artistes Africains
+http://iptv.terranovision.com:8080/music/mtv/unplugged_africa/complete_hd.m3u8?token=terranovision_mtv_2024
+
+#EXTINF:-1 tvg-id="terranovision.traceawards" tvg-logo="https://terranovision.com/logos/traceawards.jpg" group-title="Musique HD",Trace Music Awards 2024
+http://iptv.terranovision.com:8080/music/trace/awards_2024/ceremony_complete_hd.m3u8?token=terranovision_trace_2024
+
+#EXTINF:-1 tvg-id="terranovision.bbcafricaeye" tvg-logo="https://terranovision.com/logos/bbcafricaeye.jpg" group-title="Actualités HD",BBC Africa Eye - Collection 2024
+http://iptv.terranovision.com:8080/news/bbc/africa_eye_2024/complete_hd.m3u8?token=terranovision_bbc_2024
+
+#EXTINF:-1 tvg-id="terranovision.france24afrique" tvg-logo="https://terranovision.com/logos/france24.jpg" group-title="Actualités HD",France 24 - Le Journal de l'Afrique
+http://iptv.terranovision.com:8080/news/france24/journal_afrique/archives_hd.m3u8?token=terranovision_france24_2024
