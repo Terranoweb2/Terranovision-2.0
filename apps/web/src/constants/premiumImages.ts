@@ -6,6 +6,8 @@ export const PREMIUM_IMAGES = {
   HERO: {
     HERO_SUPERHERO: '/images/hero/hero_superhero.jpg',
     HERO_MANAGER: '/images/hero/hero_manager.webp',
+    HERO_PREMIUM: '/images/hero/hero_premium.webp',
+    HERO_ULTRA: '/images/hero/hero_ultra.webp',
   },
 
   // 🎯 CANAL

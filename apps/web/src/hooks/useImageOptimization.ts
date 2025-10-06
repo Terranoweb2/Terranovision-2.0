@@ -42,7 +42,7 @@ export const useImageOptimization = (
 
   const imgRef = useRef<HTMLImageElement | null>(null);
   const observerRef = useRef<IntersectionObserver | null>(null);
-  const loadTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const loadTimeoutRef = useRef<number | null>(null);
 
   // Fonction pour charger l'image avec gestion de progression
   const loadImage = useCallback((src: string) => {

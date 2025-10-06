@@ -19,7 +19,7 @@ const PlayerDemo: React.FC = () => {
 
   // Simulation du temps de lecture
   useEffect(() => {
-    let interval: NodeJS.Timeout;
+    let interval: number;
     if (isPlaying) {
       interval = setInterval(() => {
         setCurrentTime(prev => Math.min(prev + 1, duration));
@@ -31,7 +31,7 @@ const PlayerDemo: React.FC = () => {
 
   // Masquer les contrôles automatiquement
   useEffect(() => {
-    let timeout: NodeJS.Timeout;
+    let timeout: number;
     if (showControls && isPlaying) {
       timeout = setTimeout(() => setShowControls(false), 3000);
     }

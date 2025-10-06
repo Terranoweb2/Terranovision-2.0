@@ -22,6 +22,7 @@ interface AppStore extends AppState {
   setChannels: (channels: Channel[]) => void;
   addToFavorites: (channelId: string) => void;
   removeFromFavorites: (channelId: string) => void;
+  toggleFavorite: (channelId: string) => void;
   addToRecentlyWatched: (channelId: string) => void;
   setSearchQuery: (query: string) => void;
   setSelectedGroup: (group: string | null) => void;
@@ -72,6 +73,12 @@ export const useAppStore = create<AppStore>()(
       
       removeFromFavorites: (channelId) => set((state) => ({
         favorites: state.favorites.filter(id => id !== channelId)
+      })),
+
+      toggleFavorite: (channelId) => set((state) => ({
+        favorites: state.favorites.includes(channelId)
+          ? state.favorites.filter(id => id !== channelId)
+          : [...state.favorites, channelId]
       })),
       
       addToRecentlyWatched: (channelId) => set((state) => {

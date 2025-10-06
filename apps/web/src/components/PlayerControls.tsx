@@ -17,9 +17,11 @@ interface PlayerControlsProps {
   onPause: () => void;
   onSeek: (time: number) => void;
   onVolumeChange: (volume: number) => void;
-  onMuteToggle: (muted: boolean) => void;
+  onMuteToggle?: (muted: boolean) => void;
+  onMutedChange?: (muted: boolean) => void;
   onQualityChange: (quality: string) => void;
-  onFullscreenToggle: () => void;
+  onFullscreenToggle?: () => void;
+  onFullscreen?: () => Promise<void>;
 }
 
 const PlayerControls: React.FC<PlayerControlsProps> = ({
@@ -29,8 +31,10 @@ const PlayerControls: React.FC<PlayerControlsProps> = ({
   onSeek,
   onVolumeChange,
   onMuteToggle,
+  onMutedChange,
   onQualityChange,
-  onFullscreenToggle
+  onFullscreenToggle,
+  onFullscreen
 }) => {
   const [showVolumeSlider, setShowVolumeSlider] = useState(false);
   const [showQualityMenu, setShowQualityMenu] = useState(false);
@@ -58,7 +62,7 @@ const PlayerControls: React.FC<PlayerControlsProps> = ({
   const handleVolumeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const volume = parseFloat(e.target.value);
     onVolumeChange(volume);
-    if (volume > 0 && playerState.isMuted) {
+    if (volume > 0 && playerState.isMuted && onMuteToggle) {
       onMuteToggle(false);
     }
   };
@@ -72,7 +76,11 @@ const PlayerControls: React.FC<PlayerControlsProps> = ({
   };
 
   const toggleMute = () => {
-    onMuteToggle(!playerState.isMuted);
+    if (onMuteToggle) {
+      onMuteToggle(!playerState.isMuted);
+    } else if (onMutedChange) {
+      onMutedChange(!playerState.isMuted);
+    }
   };
 
   const progress = playerState.duration > 0 
