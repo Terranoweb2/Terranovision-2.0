@@ -6,6 +6,9 @@ import HomePageWithCarousel from './components/HomePageWithCarousel';
 import PlayerPagePremium from './components/PlayerPagePremium';
 import AboutPageUltraPremium from './components/AboutPageUltraPremium';
 import SubscriptionPageWithTrial from './components/SubscriptionPageWithTrial';
+import PlayerDemo from './components/PlayerDemo';
+import ChannelsPage from './components/ChannelsPage';
+import FilmsPage from './components/FilmsPage';
 import Navigation from './components/Navigation';
 import Toast from './components/Toast';
 import initialPlaylistContent from './data/initialPlaylist.m3u?raw';
@@ -45,6 +48,9 @@ function App() {
               <Route path="/player/:channelId" element={<PlayerPagePremium />} />
               <Route path="/about" element={<AboutPageUltraPremium />} />
               <Route path="/subscription" element={<SubscriptionPageWithTrial />} />
+              <Route path="/demo" element={<PlayerDemo />} />
+              <Route path="/channels" element={<ChannelsPage />} />
+              <Route path="/films" element={<FilmsPage />} />
             </Routes>
           </main>
           <Navigation />
